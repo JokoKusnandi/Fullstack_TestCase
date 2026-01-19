@@ -42,4 +42,55 @@ cd dms-frontend
 npm run dev
 ```
 
+mkdir components pages services hooks context
+touch App.jsx
+
+## Create Component
+```text
+touch components/Loader.tsx
+touch components/ErrorState.tsx
+touch components/EmptyState.tsx
+touch components/ProtectedRoute.tsx
+touch components/StatusBadge.tsx
+touch components/NavLink.tsx
+touch components/DocumentUploadModal.tsx
+touch components/DocumentDetail.tsx
+```
+## Create Pages
+```text
+touch pages/Dashboard.tsx
+touch pages/Documents.tsx
+touch pages/AdminApproval.tsx
+touch pages/AdminHistory.tsx
+touch pages/Auth.tsx
+touch pages/Index.tsx
+touch pages/NotFound.tsx
+```
+## Create context
+```text
+touch context/AuthContext.tsx
+```
+
+## Create hooks
+```text
+touch hooks/use-mobile.tsx
+touch hooks/use-toast.ts
+```
+
+## Create api interceptor
+```text
+touch lib/api.ts
+touch lib/token.ts
+touch lib/utils.ts
+```
+## Create services
+```text
+touch services/auth.service.ts
+touch services/user.service.ts
+touch services/dashboard.service.ts
+touch services/document.service.ts
+touch services/approval.service.ts
+touch services/notification.service.ts
+touch services/permission.ts
+```
 
